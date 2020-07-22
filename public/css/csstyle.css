@@ -1,10 +1,3 @@
-body{
-    background-image:url("/public/images/bgwebonepiece.jpg");
-    background-attachment:fixed;
-    background-repeat : no-repeat;
-    background-position: 50% 0%;
-    font-family: 'Mitr', sans-serif;
-}
 .headercs{
     font-size: 34px;
     color: #ffae52;
@@ -79,8 +72,6 @@ body{
   display: table;
   clear: both;
 }
-
-/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
@@ -89,16 +80,12 @@ body{
   color: #ffae52;
   margin-top: 20px;
 }
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
   }
 }
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
